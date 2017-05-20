@@ -9,7 +9,7 @@ package concesionarioCoches.ficheros;
 	import java.io.Serializable;
 	import java.util.regex.Pattern;
 
-	public class Fichero implements Serializable {
+	public class Fichero{
 
 		private static final long serialVersionUID = 1L;
 		private static final Pattern PATRON = Pattern.compile("^((\\w)+(\\.obj))$");
